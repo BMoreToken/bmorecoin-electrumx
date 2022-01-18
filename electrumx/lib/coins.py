@@ -4021,6 +4021,8 @@ class Bmorecoin(Coin):
     GENESIS_HASH = (
         '013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101d372f2d0ebc298032c9b460de1adbae2fbe1808f0e42af0b783ac63debb23131')
     RPC_PORT = 19326
-    
+    TX_COUNT = 1
+    TX_COUNT_HEIGHT = 1
+    TX_PER_BLOCK = 1
     
     

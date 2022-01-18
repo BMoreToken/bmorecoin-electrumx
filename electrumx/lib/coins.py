@@ -4013,7 +4013,7 @@ class Syscoin(AuxPowMixin, Coin):
     CHUNK_SIZE = 360
     
     
-class Bmorecoin(AuxPowMixin, Coin):
+class Bmorecoin(Coin):
     NAME = "BMoreCoin"
     SHORTNAME = "BALTx"
     NET = "mainnet"

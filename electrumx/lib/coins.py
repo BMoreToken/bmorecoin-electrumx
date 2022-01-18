@@ -4016,12 +4016,6 @@ class Bmorecoin(AuxPowMixin, Coin):
     NAME = "BMoreCoin"
     SHORTNAME = "BALTx"
     NET = "mainnet"
-    P2PKH_VERBYTE = bytes.fromhex("0x")
-    P2SH_VERBYTES = (bytes.fromhex("05"),)
-    WIF_BYTE = bytes.fromhex("80")
-    GENESIS_HASH = ('0000022642db0346b6e01c2a397471f4'
-                    'f12e65d4f4251ec96c1f85367a61a7ab')
-    DESERIALIZER = lib_tx.DeserializerAuxPowSegWit
     TX_COUNT = 1
     TX_COUNT_HEIGHT = 1
     TX_PER_BLOCK = 1
